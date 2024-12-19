@@ -30,11 +30,7 @@
 
   color: #FFFFFF;
 
-  @media (min-width: 375px) and (max-width: 1024px) {
-    font-size: 24px;
-    margin-bottom: 20px;
-    padding-top: 50px;
-  }
+  
 }
 .Description {
   position: absolute;
@@ -51,11 +47,7 @@
 
   color: #FFFFFF;
 
-  @media (min-width: 375px) and (max-width: 1024px) {
-    max-width: 100%;
-    text-align: center;
-    margin: 0 auto 20px auto;
-  }
+  
 }
 
 .Logo_container{
@@ -82,10 +74,7 @@
   line-height: 20px;
 
   color: #FFFFFF;
-  @media (min-width: 375px) and (max-width: 1024px) {
-    text-align: center;
-    padding-bottom: 50px;
-  }
+  
 }
 
 .MaskGroup {
