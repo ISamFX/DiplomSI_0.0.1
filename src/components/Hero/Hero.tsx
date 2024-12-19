@@ -4,10 +4,7 @@ import { Link } from "react-scroll"
 import HeaderBasket from "../Catalog/HeaderBasket"
 import BasketBlock from "../Catalog/BasketBlock"
 import ZakazBlock from "../Catalog/ZakazBlock"
-                            // {/* // <li key={item.id} className={styled.nav_bnt} >
-                            //     <a href={`#${item.id}`}>{item.title}</a>
-                            // </li> */}
-
+                           
 
 interface NavItem {
   title: string;
@@ -57,7 +54,7 @@ const Hero =() =>{
                     {isBasketOpen && <BasketBlock setIsBasketOpen={isBasketOpenCallback}  />}
                     {isZakazOpen && <ZakazBlock   setIsZakazOpen={isZakazOpenCallback} />}
                 </nav>
-                <div className={styled.hero_textcontainer}> 
+                <div> 
                     <h2 className={styled.hero_heading}>Кроссовки известных брендов с доставкой по России и СНГ</h2>
                     <p className={styled.hero_description}>Мы продаем кроссовки брендов Nike, Adidas, Puma, Reebok, Converse и многие другие по
                     низким ценам</p>

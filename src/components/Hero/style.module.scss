@@ -86,12 +86,15 @@ nav {
     color: #FFF4EE;
   }
 .basket_bnt {
-
+    width: 95px;
+    height: 25px;
+    margin-bottom: 4px;
+    align-items: center;
     border: none; 
     outline: none;
     font-family: 'Intro Book';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 14px;
     line-height: 14px;
     background-color:  #484283;
@@ -124,22 +127,8 @@ nav {
   text-align: left;
   line-height: 140%;
   color: white;
-  @media (min-width: 375px) and (max-width: 1024px) {
-      font-size: 30p;
-      text-align: center;
-    }
 }
-.hero_textcontainer{
-    max-width: 580px;
-    position: relative;
-    z-index: -1;
-    @media (min-width: 375px) and (max-width: 1024px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    }
-}
+
 .hero_description{
     position: absolute;
     width: 480px;
@@ -209,7 +198,7 @@ nav {
 
     @media (min-width: 375px) and (max-width: 1024px) {
         margin-top: 20px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
       }
 
 }
@@ -542,3 +531,9 @@ color: #B2B5BB;
   margin-right: -150px;
   color: #F14F4F;
 }
+.btn_hero_block{
+  width: 250px;
+  height: 60px;
+  
+}
+
